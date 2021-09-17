@@ -8,7 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Larissa Lima** tem 35 anos, é médica cardiologista e sócia em uma pequena clínica médica. Gasta muito tempo atendendo e realizando ligações para agendamento, e pensa em otimizar seu tempo de trabalho para que fique menos sobrecarregada. Esta em busca de um site onde possa se cadastrar para que seus clientes realizem o agendamento de forma online. 
+
+**Marcos Daniel** tem 37 anos, é analista de negócio e sócio-diretor de uma empresa. Gosta de explorar a tecnologia e apreciar vinhos. Procura um site que lhe permita realizar o agendamento de suas consultas de forma online pois possui tempo escasso para ficar em ligações. 
+
+**Nelson Souza** tem 60 anos, é aposentado e pratica Pesca Esportiva. Busca facilidade em realizar o agendamento com os melhores médicos do mercado, sendo bem atendido substituir o agendamento telefônico. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -26,12 +30,16 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                 |PARA ... `MOTIVO/VALOR`                                        |
+|--------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
+|Larissa Lima        |Que meus pacientes realizem o próprio agendamento de forma online   |Otimizar o meu tempo de trabalho                               |
+|Larissa Lima        |Receber  notificação dos agendamentos                               |para obter total controle da minha agenda                      |
+|Larissa Lima        |Receber notificação de cancelamentos                                |Para poder realizar possíveis encaixes                         |
+|Marcos Daniel       |Localizar clínicas mais próximas com agenda livre para me atender   |Viajo muito pelo Brasil e preciso de agilidade                 |
+|Marcos Daniel       |Receber lembretes com possibilidade de cancelar                     |Tenho agenda cheia e posso acabar esquecendo                   |
+|Nelson Souza        |Consultar com os melhores médicos avaliados                         |Quero cuidar da minha saúde com os melhores médicos da clínica |
+|Nelson Souza        |Receber notificação da última consulta após um período              |Fazer exames de rotinas                                        | 
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -47,17 +55,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
+|RF-01| **Login** - Representa a funcionalidade de logar no sistema, sendo login e senha.                                                                                    |Alta | 
+|RF-02| **Cadastro Usuário e Senha** - Representa a funcionalidade de cadastro de usuário para acessar o sistema informando CPF e E-mail.                                    |Média|
+|RF-03| **Cadastro Médico** - Representa a funcionalidade de cadastro do Médico, sendo Nome, CRM, Data Nascimento e Especialidades Médicas.                                  |Alta |
+|RF-04| **Cadastro Consultório** - Representa a funcionalidade de cadastrar os consultórios vinculados aos médicos.                                                          |Alta |
+|RF-05| **Cadastro Especialidades Médicas** - Representa a funcionalidade de cadastrar tipo de serviço/especialidade do médico.                                              |Alta |
+|RF-06|**Cadastro Convênio** - Representa a funcionalidade de cadastrar convênio caso o consultório aceite.                                                                 |Média|
+|RF-07| **Cadastro Agenda do Médico** - Representa a funcionalidade de cadastrar a agenda do médico, sendo horário de atendimento e data.                                    |Alta |
+|RF-08| **Cadastro Preço** - Corresponde a funcionalidade de cadastrar preço da prestação de serviço do médico e exames.                                                     |Alta |
+|RF-09| **Cadastro Pedido Exame** - Representa a funcionalidade do médico solicitar exames.                                                                                  |Alta |
+|RF-10| **Cadastro Paciente** - Representa a funcionalidade de cadastro do Paciente, sendo Nome, Data Nascimento, Endereço, Histórico de consultas e Exames.                 |Alta |
+|RF-11| **Cadastro Agendamento de Consulta** - Representa a funcionalidade de realizar agendamentos, de acordo com a agenda do médico e disponibilidade de vagas ou efetuar o cancelamento.                                                                                                                                                                 |Alta |
+|RF-12| **Consultar Paciente** - Possibilidade de visualizar ou gerar relatório com histórico do paciente.                                                                   |Alta |
+|RF-13| **Consultar Médicos** - Possibilidade de visualizar ou gerar relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta |Alta |
+|RF-14| **Pesquisar/Consultar** - Representa a funcionalidade de pesquisar Médicos, Cidades, Especialidades e Paciente.                                                      |Alta |
+|RF-15| **Pós Consulta** - Lembrar o usuário depois de um período, quando foi sua última consulta.                                                                           |Baixa| 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O App ou site será publicado em um ambiente na Internet.                                                                                      |Alta | 
+|RNF-02| O website poderá ser acessado por um telefone celular Android ou IOS com uma visualização adequada.                                           |Alta | 
+|RNF-03| O website será compatível com os principais navegadores do mercado.                                                                           |Alta |
+|RNF-04| O website deve ser confiável, deve atender às suas especificações.                                                                            |Alta |
+|RNF-05| O website deve tratar acessos não autorizados, garantindo um alto grau de segurança.                                                          |Alta |
+|RNF-06| A interface do website deve ser amigável, ou seja deve se sentir confortável ao utilizar o site, de forma que sua experiência torna-se fácil. |Média|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -80,9 +105,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo ultrapassar a data de 06/12/2021.  |
+|02| O projeto não pode utilizar recursos externos ( contratar terceiros para o desenvolvimento).              |
+|03| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend.                                |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
