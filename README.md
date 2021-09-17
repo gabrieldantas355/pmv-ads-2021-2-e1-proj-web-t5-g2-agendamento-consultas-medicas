@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+**Analise e Desenvolvimento de sistemas**
 
-`DISCIPLINA`
+**Projeto: Agendamento Online Consultas Médicas em Clínicas de Pequeno e Médio Porte.**
 
-`SEMESTRE`
+**02/2021**
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Fabio Furlan
+* Gabriel Dantas
+* Hugo Kioshi Ito
+* Luiza Lobato
+* Michely Cunha
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 ## Instruções de utilização
 
