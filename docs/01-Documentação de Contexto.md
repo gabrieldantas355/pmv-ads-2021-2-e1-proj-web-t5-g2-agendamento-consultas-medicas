@@ -1,8 +1,11 @@
 # Introdução
 
-Atualmente a tecnologia está cada vez mais presente na vida das pessoas, e na medicina não é diferente. Desde equipamentos que favorecem os diagnósticos dos pacientes até  simples agendamentos para a marcação de consultas.
+Atualmente a tecnologia está cada vez mais presente na vida das pessoas, e na medicina não é diferente. Desde equipamentos que favorecem os diagnósticos dos pacientes até  simples agendamentos para a marcação de consultas. 
+
 Grandes redes de clínicas e hospitais já possuem serviços e plataformas de agendamento online, e este número tende a crescer. Uma dessas plataformas teve nos últimos anos um crescimento maior que 700% nos agendamentos online. Em contrapartida, as pequenas e médias clínicas médicas, ao realizarem o agendamento dos seus usuários é comumente a utilização de outros meios, como ligações via telefone, agendamento manual e até presencialmente, isso acarreta para os usuários perda de tempo, ao ter que ficar ligando ou se deslocar até as clínicas, para ver disponibilidades dos médicos, especialidades atendidas, horários e valores das consultas, além de ter um horário restrito para o cliente realizar o agendamento; e para os médicos e clínicas geram dificuldades no gerenciamento das rotinas e segurança da informação, sendo um processo mais propenso a erros como sobreposição de horários ou marcação de especialidade que não é a necessidade do cliente, como também aumentos dos custos operacionais e  dos recursos.
+
 Além do impacto que pode causar, pois ao procurar um atendimento médico algum desses usuários podem estar fragilizados, e esses percalços trazem maiores desgastes e uma experiência do cliente não positiva.
+
 Logo, é necessário inserir as pequenas e médias clínicas médicas no contexto tecnológico, de uma forma que facilite os agendamentos na marcação de consultas, tornando soluções mais práticas, ágeis e que facilite a prestação dos serviços aos clientes. 
 
 ## Problema
