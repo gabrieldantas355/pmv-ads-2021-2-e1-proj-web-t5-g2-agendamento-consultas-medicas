@@ -9,7 +9,7 @@ Além do impacto que pode causar, pois ao procurar um atendimento médico algum 
 Logo, é necessário inserir as pequenas e médias clínicas médicas no contexto tecnológico, de uma forma que facilite os agendamentos na marcação de consultas, tornando soluções mais práticas, ágeis e que facilite a prestação dos serviços aos clientes. 
 
 ## Problema
-Como sistemas de agendamento online tendem a crescer, as pequenas e médias clínicas médicas não podem se ausentar para essa tecnologia, por isso, o problema que se busca resolver com esse projeto é a ausência e/ou limitação de recursos automatizados para agendamento de consultas para pequenas e médias clínicas, que traz para o cliente desperdício de tempo e inflexibilidades, e para as clínicas e médicos podem decorrer de mal gerenciamento de rotinas até perdas de clientes.
+Como sistemas de agendamento online tendem a crescer, as pequenas e médias clínicas médicas não podem se ausentar para essa tecnologia, por isso, o problema que se busca resolver com esse projeto é a ausência e/ou limitação de recursos automatizados para agendamento de consultas para pequenas e médias clínicas, que traz para o cliente desperdício de tempo e inflexibilidades, e para as clínicas e médicos podem decorrer de mal gerenciamento de rotinas até perdas de clientes. Além de possibilitar 
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
@@ -23,10 +23,11 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 ## Objetivos
 
 O objetivo geral deste trabalho é a criação de um site  que permite que clínicas de pequeno e médio porte e médicos cadastrem seus serviços e disponibilizem para que clientes possam agendar as consultas totalmente online. 
-Os objetivos específicos, sendo:
- *Permitir que as clínicas e/ou médicos cadastrem as especialidades atendidas e os médicos destas especialidades;
+Os objetivos específicos, são:
+ *Permitir que as clínicas e/ou médicos cadastrem as especialidades atendidas, médicos destas especialidades com seus horários de atendimento;
  *Fornecer funcionalidades que os clientes (pacientes) possam cadastrar e/ou agendar as consultas na clínica, especialidade, médico, dia e horário requerido. 
- *Permitir a personalização dos atendimentos com histórico de consulta, retornos, entregas de exames, agendamentos/reagendamentos e a interação médico/paciente. 
+ *Permitir a personalização dos atendimentos com histórico de consulta, retornos, agendamentos/reagendamentos e a interação médico/paciente. 
+ 
 
  
 > **Links Úteis**:
@@ -34,13 +35,13 @@ Os objetivos específicos, sendo:
 
 ## Justificativa
 
-Ao observar a lacuna existente na inserção das pequenas e médias clínicas no agendamento online, notou-se a viabilidade de elaborar um site onde estes possam se cadastrar. Este no que lhe diz respeito, deve ter utilidade para pequenas e médias clínicas e para todo o público em que estas se destinam. O projeto também busca otimizar o tempo no que se refere ao agendamento por ambas as partes..
+Ao observar a lacuna existente na inserção das pequenas e médias clínicas no agendamento online, notou-se a viabilidade de elaborar um site onde estes possam se cadastrar. Este no que lhe diz respeito, deve ter utilidade para os médicos e administradores de pequenas e médias clínicas e para todo o público em que estas se destinam. O projeto também busca otimizar o tempo no que se refere ao agendamento por ambas as partes..
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
-O projeto foi desenvolvido com foco nas pequenas e médias clínicas que buscam pela digitalização e também em seus usuários, que necessitam de uma relação mais prática e tecnológica com a empresa. 
+O projeto foi desenvolvido com foco nos médicos e administradores de pequenas e médias clínicas que buscam pela digitalização e também em seus usuários, que necessitam de uma relação mais prática e tecnológica com a empresa. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
