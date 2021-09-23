@@ -32,7 +32,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                 |PARA ... `MOTIVO/VALOR`                                        |
 |--------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
-|Larissa Lima        |Que meus pacientes realizem o próprio agendamento de forma online   |Digitalizr a empresa                                           |
+|Larissa Lima        |Que meus pacientes realizem o próprio agendamento de forma online   |Digitalizar a empresa                                           |
 |Larissa Lima        |Receber  notificação dos agendamentos                               |para obter total controle da minha agenda                      |
 |Larissa Lima        |Receber notificação de cancelamentos                                |Para poder realizar possíveis encaixes                         |
 |Marcos Daniel       |Localizar clínicas mais próximas com agenda livre para me atender   |Viajo muito pelo Brasil e preciso de agilidade                 |
