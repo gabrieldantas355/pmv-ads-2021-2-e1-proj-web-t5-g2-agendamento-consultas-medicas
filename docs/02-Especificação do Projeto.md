@@ -8,6 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+**Ana Almeida** tem 27 anos, é secretária em uma clínica médica e é apaixonada por medicina e tecnologia, está sempre se atualizando, gosta de novos desafios no trabalho. Está sempre trabalhando junto aos médicos e superando seus objetivos no trabalho.
+
 **Larissa Lima** tem 35 anos, é médica cardiologista e sócia em uma pequena clínica médica. Gosta de estar sempre em dia com a tecnologia e exige que a clínica onde atende ofereça o agendamento online. Deseja receber notificações de agendamento e cancelamento das consultas de seus pacientes e verificar seus históricos.
 
 **Marcos Daniel** tem 37 anos, é analista de negócio e sócio-diretor de uma empresa. Gosta de explorar a tecnologia e apreciar vinhos. Procura um site que lhe permita realizar o agendamento de suas consultas de forma online pois possui tempo escasso para ficar em ligações. 
@@ -30,15 +32,17 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                 |PARA ... `MOTIVO/VALOR`                                        |
-|--------------------|--------------------------------------------------------------------|---------------------------------------------------------------|
-|Larissa Lima        |Que meus pacientes realizem o próprio agendamento de forma online   |Digitalizar a empresa                                           |
-|Larissa Lima        |Receber  notificação dos agendamentos                               |para obter total controle da minha agenda                      |
-|Larissa Lima        |Receber notificação de cancelamentos                                |Para poder realizar possíveis encaixes                         |
-|Marcos Daniel       |Localizar clínicas mais próximas com agenda livre para me atender   |Viajo muito pelo Brasil e preciso de agilidade                 |
-|Marcos Daniel       |Receber lembretes com possibilidade de cancelar                     |Tenho agenda cheia e posso acabar esquecendo                   |
-|Nelson Souza        |Consultar com os melhores médicos avaliados                         |Quero cuidar da minha saúde com os melhores médicos da clínica |
-|Nelson Souza        |Receber notificação da última consulta após um período              |Fazer exames de rotinas                                        | 
+|EU COMO... `PERSONA| QUERO/PRECISO ... `FUNCIONALIDADE`                                               |PARA ... `MOTIVO/VALOR`                                      |
+|-------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------|
+|Ana Almeida        |Participar na informatização dos agendamentos de consultas da clínica            |Inovação, Agregar novos conhecimentos                         |
+|Ana Almeida        |Total apoio aos médicos,clínica. Realizando cadastros de médicos,exames          |Facilitar nos agendamentos de consultas para pacientes 
+|Larissa Lima       |Que meus pacientes realizem o próprio agendamento de forma online                |Digitalizar a empresa                                         |
+|Larissa Lima       |Receber  notificação dos agendamentos                                            |para obter total controle da minha agenda                     |
+|Larissa Lima       |Receber notificação de cancelamentos                                             |Para poder realizar possíveis encaixes                        |
+|Marcos Daniel      |Localizar clínicas mais próximas com agenda livre para me atender                |Viajo muito pelo Brasil e preciso de agilidade                |
+|Marcos Daniel      |Receber lembretes com possibilidade de cancelar                                  |Tenho agenda cheia e posso acabar esquecendo                  |
+|Nelson Souza       |Consultar com os melhores médicos avaliados                                     |Quero cuidar da minha saúde com os melhores médicos da clínica |
+|Nelson Souza       |Receber notificação da última consulta após um período                           |Fazer exames de rotinas                                       | 
 
 
 > **Links Úteis**:
@@ -56,23 +60,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o email e a senha cadastrados.                                                               |Alta | 
+|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o email, telefone e a senha cadastrados.                                                               |Alta | 
 |RF-02| **Cadastro Usuário e Senha** - O site deve gerenciar o usuário.                                                                                                     |Média|
 |RF-03|**Tipos de Cadastro** - O site deve possuir 3 usuários diferentes, sendo: Médico, Clínica e Paciente.                                                                 |Alta | 
-|RF-04| **Cadastro Médico** - O site deve permitir que o médico realize o seu cadastro preenchendo os requisitos: Nome, CRM, Data Nascimento, Senha, e-mail, Telefone, Especialidade, Agenda, valor das consultas e convênios aceitos.                                                                                                             |Alta |
-|RF-05| **Cadastro Clínicas** -O site deve permitir que as clínicas se cadastrem vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                         |Alta |                                                                              
+|RF-04| **Cadastro Médico** - O site deve permitir que a secretária realize o cadastro médico preenchendo os requisitos: Nome, CRM, Data Nascimento, Senha, e-mail, Telefone, Especialidade, Agenda, valor das consultas e convênios aceitos.                                                                                                             |Alta |
+|RF-05| **Cadastro Clínicas** -O site deve permitir que a secretária  cadastre na clínica vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                         |Alta |                                                                              
 |RF-06| **Cadastro Paciente** -O site deve permitir que os pacientes se cadastrem, preenchendo os requisitos: Nome, Data Nascimento, Endereço, CPF, Telefone.               |Alta |
-|RF-07| **Agendamento de Consulta** - O site deve permitir que o paciente/médico/clínica agende consultas.                                                                   |Alta |
-|RF-08|**Cancelamento de consulta** - O site deve permitir que o paciente/médico/administrador cancele consultas. 
+|RF-07| **Agendamento de Consulta** - O site deve permitir que o paciente/secretária agende consultas.                                                                   |Alta |
+|RF-08|**Cancelamento de consulta** - O site deve permitir que o paciente/secretária/administrador cancele consultas. 
 |RF-09| **Consultar Histórico** - O site deve permitir a visualização ou relatório com histórico do paciente/médico/clínica.                                                 |Alta |
 |RF-10| **Consultar Médicos** - O site deve permitir a visualização ou relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta.                                                                                                                                                                   |Alta |
-|RF-11| **Pesquisar/Consultar** -O site deve permitir que o paciente/administrador pesquise utilizando os filtros: Localidade, especialidade, clínicas, convênios e datas.                                                                                                                                                                       |Alta |
-|RF-12| **Confirmação de agendamento** - O site deve notificar o usuário confirmando o agendamento informando o motivo.                                                     |Baixa| 
-|RF-13|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médicoe a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                               |Baixa|    
-|RF-15|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando que quando foi a ultima consulta.                                                 |Baixa|
-|RF-16|**Pré consulta Médico/Clínica** - O site deve notificar ao médico/clínica quando efetuado um agendamento informando os dados do paciente.                             |Baixa|
-|RF-17|**Notificação de cancelamento Médico/Clínica** - O site deverá notificar ao médico/clínica quando ouver um cancelamento por parte do paciente informando o motivo.                                                                                                                                                                     |Baixa|
-|RF-18|**Notificação de cancelamento Paciente** - O site deve notificar ao cliente quando ouver um cancelamento por parte do médico informando o motivo.                     |Baixa|
+|RF-11| **Pesquisar/Consultar** -O site deve permitir que o paciente/administrador pesquise utilizando os filtros: Localidade, especialidade, clínicas, convênios e datas.                                                                                                                                                                     |Alta |
+|RF-12| **Confirmação de agendamento** - O site deve notificar o usuário confirmando o agendamento informando o motivo.                                                     |Média| 
+|RF-13|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médico e a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                             |Média|    
+|RF-15|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando que quando foi a ultima consulta.                                               |Baixa|
+|RF-16|**Pré consulta Médico/Clínica** - O site deve notificar a agenda do médico/clínica quando efetuado um agendamento informando os dados do paciente.                   |Média|
+|RF-17|**Notificação de cancelamento Médico/Clínica** - O site deverá notificar ao médico/clínica quando ouver um cancelamento por parte do paciente informando o motivo.                                                                                                                                                                     |Média|
+|RF-18|**Notificação de cancelamento Paciente** - O site deve notificar ao cliente quando ouver um cancelamento por parte do médico informando o motivo.                     |Média|
      
 
 ### Requisitos não Funcionais
