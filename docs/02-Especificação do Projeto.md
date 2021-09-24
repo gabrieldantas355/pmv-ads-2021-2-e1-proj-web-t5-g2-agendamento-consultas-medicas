@@ -32,18 +32,16 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA| QUERO/PRECISO ... `FUNCIONALIDADE`                                               |PARA ... `MOTIVO/VALOR`                                      |
-|-------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------|
-|Ana Almeida        |Participar na informatização dos agendamentos de consultas da clínica            |Inovação, Agregar novos conhecimentos                         |
-|Ana Almeida        |Total apoio aos médicos,clínica. Realizando cadastros de médicos,exames          |Facilitar nos agendamentos de consultas para pacientes 
-|Larissa Lima       |Que meus pacientes realizem o próprio agendamento de forma online                |Digitalizar a empresa                                         |
-|Larissa Lima       |Receber  notificação dos agendamentos                                            |para obter total controle da minha agenda                     |
-|Larissa Lima       |Receber notificação de cancelamentos                                             |Para poder realizar possíveis encaixes                        |
-|Marcos Daniel      |Localizar clínicas mais próximas com agenda livre para me atender                |Viajo muito pelo Brasil e preciso de agilidade                |
-|Marcos Daniel      |Receber lembretes com possibilidade de cancelar                                  |Tenho agenda cheia e posso acabar esquecendo                  |
-|Nelson Souza       |Consultar com os melhores médicos avaliados                                     |Quero cuidar da minha saúde com os melhores médicos da clínica |
-|Nelson Souza       |Receber notificação da última consulta após um período                           |Fazer exames de rotinas                                       | 
-
+|EU COMO... `PERSONA         | QUERO/PRECISO ... `FUNCIONALIDADE`                                               |PARA ... `MOTIVO/VALOR`                                      |
+|----------------------------|------------------------------------------------------------------------|--------------------------------------------------------------|
+|Ana Almeida                 |Participar na informatização dos agendamentos de consultas da clínica  |Inovação, Agregar novos conhecimentos                          |
+|Ana Almeida                 |Total apoio aos médicos,clínica. Realizando cadastros de médicos,exames|Facilitar nos agendamentos de consultas para pacientes
+|Larissa Lima                |Que meus pacientes realizem o próprio agendamento de forma online      |Digitalizar a empresa                                          |
+|Larissa Lima                |Receber  notificação dos agendamentos                                  |para obter total controle da minha agenda                      |
+|Larissa Lima                |Receber notificação de cancelamentos                                   |Para poder realizar possíveis encaixes                         |
+|Marcos Daniel               |Localizar clínicas mais próximas com agenda livre para me atender      |Viajo muito pelo Brasil e preciso de agilidade                 |
+|Marcos Daniel/ Nelson Souza |Receber lembretes com possibilidade de cancelar                        |Tenho agenda cheia e posso acabar esquecendo/ Fazer exames de rotina|
+|Nelson Souza                |Consultar com os melhores médicos avaliados                            |Quero cuidar da minha saúde com os melhores médicos da clínica | 
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
