@@ -46,14 +46,14 @@ Apresente a divisão de papéis entre os membros do grupo.
 ##Product Owner:
 
 ##Developer:
--Fabio Furlan
--Gabriel Dantas
--Hugo Kioshi Ito
--Luiza Lobato
--Michely Cunha
+ - Fabio Furlan
+ - Gabriel Dantas
+ - Hugo Kioshi Ito
+ - Luiza Lobato
+ - Michely Cunha
 
 ##UX/UI Designer
--Hugo Kioshi Ito
+ - Hugo Kioshi Ito
 
 ##QA
 
