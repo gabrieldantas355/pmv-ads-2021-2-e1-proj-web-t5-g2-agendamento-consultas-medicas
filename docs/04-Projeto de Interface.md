@@ -25,6 +25,9 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 ![FluxoPaciente](img/Fluxo-Paciente.jpg)
 Figura 1 - Fluxo de telas do paciente
 
+![FluxoMedico](img/Fluxo-Medico.jpg)
+Figura 2 - Fluxo de telas do Administrador/Medico
+
 ## Wireframes
 
 ### Tela - Home-Page
