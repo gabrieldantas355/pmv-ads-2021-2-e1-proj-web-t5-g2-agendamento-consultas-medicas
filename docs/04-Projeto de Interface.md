@@ -46,16 +46,16 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ### Tela - Portal de Consulta Administrador
 ![Medico-Portal](img/M-Portal.JPG)
 
-### Tela - Portal de Consulta Administrador
+### Tela - Cadastro Medico
 ![Medico-Cad01](img/M-MeuCadastro.JPG)
 
-### Tela - Portal de Consulta Administrador
+### Tela - Cadastro Medico - Especialidade/Preço
 ![Medico-Cad02](img/M-MeuCadastro-Espec.JPG)
 
-### Tela - Portal de Consulta Administrador
+### Tela - Cadastro Medico - Jornada
 ![Medico-Cad03](img/M-MeuCadastro-Jornada.JPG)
 
-### Tela - Portal de Consulta Administrador
+### Tela - Cadastro Medico - Agenda
 ![Medico-Agenda](img/M-AgendaMedica.JPG)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
