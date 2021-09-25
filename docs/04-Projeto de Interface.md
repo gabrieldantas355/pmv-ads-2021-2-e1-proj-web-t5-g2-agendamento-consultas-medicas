@@ -22,7 +22,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Fluxo do Usuário
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <https://marvelapp.com/prototype/5ee8e90> .
 #### Fluxo de telas do paciente
-![FluxoPaciente](img/Fluxo-Paciente.JPG)
+![FluxoPaciente](img/Fluxo-Paciente.jpg)
 Figura 1 - Fluxo de telas do paciente
 
 ## Wireframes
